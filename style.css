@@ -1,0 +1,37 @@
+body{
+    margin:0px;
+
+}
+/*Body Header*/
+#body-header{
+height:65vh;
+opacity:1.5;
+background-image: url("—Pngtree—tech technology background_110823.png");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+/*HorizontalLists*/
+
+.horizontal-list{
+  list-style: none;
+  padding-left: 0px;
+  
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+    transition: color 0.5s , border-bottom 4s;
+    
+}
+.text-center{
+    text-align: center;
+}
+.horizontal-list li a:hover{
+    color:lightgray;
+    border-bottom: 1px solid white;
+}
