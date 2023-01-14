@@ -13,12 +13,12 @@ background-image: url("—Pngtree—tech technology background_110823.png");
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
-padding-top: 3.8rem;
+padding-top: 2.8rem;
 }
 /*HorizontalLists*/
 #horizontal-list text-center nav-menu
 {
-    padding-bottom: 50%;
+    padding-bottom: 20%;
 }
 .horizontal-list{
   list-style: none;
@@ -50,7 +50,7 @@ padding-top: 3.8rem;
     color:lightgray;
     border-bottom: 1px solid white;
 }
-name-social-container{
+#name-social-container{
     margin-top: 20vh;
 }
 #my-name{
@@ -58,8 +58,8 @@ name-social-container{
     letter-spacing: 0.1rem;
     color:white;
     font-weight: 700;
-    margin-top: 4.5rem;
-    margin-bottom:3.5rem ;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .social-icons li a i{
     color: red;*/
@@ -106,10 +106,23 @@ section:nth-child(2n+1)
     width:100%;
     border-radius: 50%;
 }
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
 .section-heading{
     width:auto;
-    padding: 20px 10 px 10px;
-    margin: 10px auto;
+    padding-left: 550rem;
+    padding-right: 1000rem;
+    margin: 50px auto;
     font-weight: 400;
 }
 .section-heading span{
@@ -124,4 +137,19 @@ section:nth-child(2n+1)
     width:70%;
     height:100px;
     borders: 2px solid black;
+}
+.mb75px {
+    margin-bottom: 75px;
+}
+
+/*common color classes */
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
 }
