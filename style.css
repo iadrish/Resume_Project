@@ -1,155 +1,151 @@
+html,
 body{
-    margin:0px;
-    font-family: sans-serif;
-    font-size: 30px;
-    
+    font-size: 16px;
+}
+*{
+    font-family:"Arial","Helvetica",sans-serif;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.no-bold{
+    font-weight: 400;
+}
+.bold{
+    font-weight: 600;
+}
+.text-center{
+    text-align: center;
+}
+.eighty-five-percent{
+    width:85%;
+    height:inherit;
+}
+.fifty-percent{
+    width:50%;
+    height:inherit;
+}
+.white-border-transparent-button{
+    background-color: #0000;
+    color:white;
+    border: 3px solid white;
+}
+.white-border-transparent-button:hover{
+    cursor:pointer;
+    background-color:white;
+    transition:0.3s;
+}
+section{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
 
 }
-/*Body Header*/
-#body-header{
-height:65vh;
-opacity:1.5;
-background-image: url("—Pngtree—tech technology background_110823.png");
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-padding-top: 2.8rem;
+section > div i{
+    margin-right: 1rem;
 }
-/*HorizontalLists*/
-#horizontal-list text-center nav-menu
-{
-    padding-bottom: 20%;
+section: :nth-child(2n){
+    background-color:#f0f0f0;
+}
+.section-heading{
+    margin:4rem 0;
+    font-size:2.5em;
+    color:#1262br;
 }
 .horizontal-list{
-  list-style: none;
-  padding-left: 0px;
-  margin: 0px;
-  
+    list-style:none;
 }
 .horizontal-list li{
     display: inline-block;
-    margin: 0px 8px 8px 0px;
-    font-weight: 100;
-    font-size: 0.9rem;
 }
 .horizontal-list li a{
-    color:white;
+    color:white ;
     text-decoration: none;
-    transition: color 0.5s , border-bottom 4s;
-    
+}
+.nav-menu{
+    height: 4em;
+    line-height: 3.5em;
 }
 .nav-menu li a{
-    transition: color 0.5s, border-bottom 4s;
+    font-size: 1.5em;
 }
-
-.text-center{
-    text-align: center;
-  
+.nav-menu li{
+    margin: 0px 8px;
 }
-.horizontal-list li a:hover{
-    color:lightgray;
-    border-bottom: 1px solid white;
-}
-#name-social-container{
-    margin-top: 20vh;
-}
-#my-name{
-    font: size 3rem;
-    letter-spacing: 0.1rem;
-    color:white;
-    font-weight: 700;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.social-icons li a i{
-    color: red;*/
-   padding-bottom: 100%;
-    
-    font-size: 2rem;
-    border-radius: 50%;
-}
-
-
-.social-icons li a i:hover{
-    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
-}
-section{
-    width:50%;
-    display:flex;
-    flex-direction:column;
-    height:75vh;
-    align-items: center;
-
-}
-section:nth-child(2n)
-{
-    background-color: white;
-}
-section:nth-child(2n+1)
-{
-    background-color: lightgray;
-}
-#about
-{
-    height:auto;
-    width:100%;
-    position: relative;
-}
-#my-image{
-    height: 12rem;
-    width: 12rem;
-    margin: auto;
-    margin-top: -17vh;
-}
-#my-image img{
-    height: 90%;
-    width:100%;
-    border-radius: 50%;
-}
-#about-para {
-    padding: 10px;
-    width: 70%;
-    height: 100%;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    color: grey;
-    line-height: 28px;
-    font-weight: 100;
-    font-size: 1.1rem;
-}
-.section-heading{
-    width:auto;
-    padding-left: 550rem;
-    padding-right: 1000rem;
-    margin: 50px auto;
-    font-weight: 400;
-}
-.section-heading span{
-    font-size: 40px;
-    color:#2857a4;
-    display: inline-block;
-    padding-top: 10px;
-    margin-right: 0.5rem;
-}
-.skills-display
-{
-    width:70%;
-    height:100px;
-    borders: 2px solid black;
-}
-.mb75px {
-    margin-bottom: 75px;
-}
-
-/*common color classes */
-
-.text-highlight {
-    color: #2857a4;
-    font-weight: 600;
-
-}
-.nav-menu li a:hover {
+.nav-menu li a:hover{
     color: lightgrey;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #494949;
 }
+.social-links li a i{
+    font-size:1.8em;
+    padding: 0 1em;
+    line-height: 1.8em;
+    border-radius: 50%;
+}
+.social-links li a i{
+    font-size: 1.8em;
+    padding: 0 1em;
+    line-height: 1.8em;
+    border-radius: 50%;
+}
+.social-links li:nth-child(1) a:hover{
+    color:dodgerblue;
+}
+.social-links li:nth-child(2) a:hover{
+    color:orange;
+}
+.social-links li:nth-child(3) a:hover, .social-links li:nth-child(5) a:hover {
+    color: red;
+  }
+  .social-links li:nth-child(4) a:hover{
+    color:#4040ff;
+  }
+  #body-header {
+    opacity: 0.8;
+    height: 75vh;
+    min-height: 450px;
+    font-size: 1rem;
+    background-image: url("—Pngtree—tech technology background_110823.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
+  #body-header #name-social-container #header-name {
+    font-size: 2.25em;
+    letter-spacing: 0.1rem;
+    color:#f3f3f3
+  }
+  #body-header .checkbtn{
+    font-size:1.5em;
+    position:absolute;
+    right:5%;
+    line-height:2em ;
+    cursor: pointer;
+    display: none;
+  }
+  #body-header #check{
+    display:none;
+  }
+  #about #profile-image{
+    transition:1s;
+    width: 17%;
+    height:auto;
+    min-width: 240px;
+    display:block;
+    margin: 0 auto;
+    position:relative;
+    z-index: +1;
+    transform: translateY(-50%);
+    border: 3px solid white;
+    border-radius:50%;
+    box-shadow: 0px 0px 7px 4px lightgrey;
+  }
