@@ -67,9 +67,12 @@ section > div i {
 }
 
 section:nth-child(2n) {
-  background-color: #f0f0f0;
+  background-color: #F5EA5A;
 }
-
+section:nth-child(2n + 1)
+{
+  background-color: #FF7B54;
+}
 .section-heading {
   margin: 4rem 0;
   font-size: 2.5em;
@@ -178,7 +181,7 @@ section:nth-child(2n) {
   
   /* About */
   #about #self-info {
-    color: grey;
+    color:black;
     font-size: 1.5em;
     text-align: justify;
     width: 70%;
